@@ -29,8 +29,9 @@ You can now create your recipe index via the instructions on the Settings->Visua
 
 == Frequently Asked Questions ==
 
-Q: Can I style this with css?
-A: Yes, everything should be fully styleable.  If you find something that isn't please contact the developer via the support forums and I'll see what I can do.
+= Can I style this with css? =
+
+Yes, everything should be fully styleable.  If you find something that isn't please contact the developer via the support forums and I'll see what I can do.
 
 == Screenshots ==
 
