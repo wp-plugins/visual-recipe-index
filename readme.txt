@@ -37,6 +37,7 @@ Yes, everything should be fully styleable.  If you find something that isn't ple
 
 1. Sample of how the visual recipe index will look. You can also check out a live version at [strawberriesforsupper.com/recipe-index](http://strawberriesforsupper.com/recipe-index)
 2. Screenshot of the admin screen providing clear directions on how to create your automatically updating visual recipe index.
+3. Full screen view of the visual recipe index.
 
 == Changelog ==
 * updated readme.txt file, added screenshots
