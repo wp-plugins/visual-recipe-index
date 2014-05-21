@@ -1,0 +1,63 @@
+
+/* theme settings */
+
+#ri_sc {display:none;}
+#riview-settings-left .subsubsub{z-index:5;}
+#riview-settings-left div.menu{border-bottom:1px solid #eee;}
+#riview-settings-left .subsubsub a{color:#21759b;font-size:115%;}
+#riview-settings-left .subsubsub a.active{color:#000;text-shadow:#333;letter-spacing:1px;}
+
+#riview-settings-left input.radio{border:0;}
+
+#riview-settings-left input:disabled{background-color:#eee;}
+
+#riview-settings-left input.checkbox{padding:2px;margin:2px 0;}
+
+#riview-settings-left table{margin:.2em 0;}
+#riview-settings-left th{text-align:right;width:35%;vertical-align:top;}
+#riview-settings-left tr{vertical-align:middle;border-bottom: 1px solid #eee;}
+#riview-settings-left tr tr{vertical-align:middle;border:0;}
+
+#riview-settings-left th p{line-height:150%;font-weight:normal;padding:0;margin:0;}
+#riview-settings-left th p span, #riview-settings-left td span{color:#999;font-weight:normal;font-style:italic;display:block}
+
+#riview-settings-left label{margin-right:20px;}
+
+#riview-settings-left .resizable-textarea textarea {
+  display:block;
+  margin-bottom:0pt;
+  width:95%;
+  height: 20%;
+}
+
+#riview-settings-left .image-preview{
+  max-width:500px;
+  float: left;
+  background: #000;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+
+#riview-settings-left .alignleft{float:left;margin-right:8px;}
+#riview-settings-left .alignright{float:right;margin-left:8px;}
+#riview-settings-left .aligncenter{display:block;margin-left:auto;margin-right:auto;text-align:center;}
+#riview-settings-left .hidden{display:none;}
+
+#riview-settings-left .warning, #riview-settings-left th p span.warning{color: #ed1f24;}
+
+/* clearfix */
+#riview-settings-left .clear-block:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0;}
+
+
+#riview-settings-left {width:75%; border-right: 1px solid #eee;padding-right:5px; margin: 5px 0;}
+#riview-settings-right {width:23%; padding:0 5px; margin: 5px 0;}
+#riview-settings-right p{text-align:center; }
+#riview-settings-right #riview-fanbox{width:192px; margin:auto; }
+
+#riview_shortcode {background-color:#EEEEFF;}
+#shortcode_options tr td {width:150px; font-weight:normal;font-style:italic; vertical-align:baseline;}
+#shortcode_options tr td span {color:#999;font-weight:normal;font-style:italic;display:block;font-size:x-small;}
+#shortcode_options tr td .upper {padding-bottom:10px; border-bottom:1px solid #eee;display:block}
+#shortcode_options tr td .lower {padding-top:5px;display:block}
+
