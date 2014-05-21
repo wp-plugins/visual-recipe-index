@@ -2,7 +2,7 @@
 Contributors: Seestheday
 Requires at least: 3.0
 Tested up to: 3.9
-Stable tag: 1.2.2
+Stable tag: 1.2.3
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -60,3 +60,6 @@ The images are resized using an embedded version of TimThumb.  It is using versi
 
 = 1.2.2 =
 * Removed "Version" tags within code so download tag would update correctly
+
+= 1.2.3 =
+* minor updates

@@ -1,6 +1,7 @@
 <?php
 /**
  * @ Recipe_Index
+ * @version 1.2.3
  */
 /*
 Plugin Name: Visual Recipe Index
