@@ -8,14 +8,14 @@ Plugin Name: Visual Recipe Index
 Plugin URI: http://wordpress.org/extend/plugins/recipe_index/
 Description: This plugin allows for the easy creation of a recipe index. 
 Inspired by the Category Grid View Plugin by Anshul Sharma
-Author: Simon Austin
+Author: seestheday
 Version: 1.0
-Author URI: http://strawberriesforsupper.com/visual-recipe-index-plugin
+Author URI: http://strawberriesforsupper.com/recipe-index
 */
 
 
 /* Copyright 2012 Original Author: Anshul Sharma  (email : contact@anshulsharma.in)
-   Copyright 2014 Author: Simon Austin (email: simon@kremental.com)
+   Copyright 2014 Author: seestheday/Simon Austin (email: simon@kremental.com)
 
 This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -44,10 +44,10 @@ function add_ri_settings(){
 add_options_page('Settings - Visual Recipe Index','Visual Recipe Index', 'manage_options', 'visual-recipe-index', 'recipe_index_options');
 }
 
-define('PLUGIN_AUTHOR', 'Simon Austin');
+define('PLUGIN_AUTHOR', 'seestheday');
 define('PLUGIN_VERSION', '1.0');
 define('AUTHOR_URI','http://strawberriesforsupper.com/');
-define('PLUGIN_URI','http://strawberriesforsupper.com/recipe-index-plugin');
+define('PLUGIN_URI','http://strawberriesforsupper.com/recipe-index');
 
 class RecipeIndex{
     /* Get the parameters from shortcodes,
@@ -64,7 +64,7 @@ class RecipeIndex{
                             'offset' => '0',
 							'tags' => '',
                             'size' => 'thumbnail',
-							'quality' => '75',
+							'quality' => '100',
 							'showtitle' => 'hover',
 							'lightbox' => '1',
 							'paginate' => '0',
