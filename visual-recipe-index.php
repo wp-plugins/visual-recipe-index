@@ -64,7 +64,7 @@ class RecipeIndex{
                             'offset' => '0',
 							'tags' => '',
                             'size' => 'thumbnail',
-							'quality' => '75',
+							'quality' => '100',
 							'showtitle' => 'hover',
 							'lightbox' => '1',
 							'paginate' => '0',

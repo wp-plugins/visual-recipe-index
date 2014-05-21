@@ -2,7 +2,7 @@
 Contributors: Seestheday
 Requires at least: 3.0
 Tested up to: 3.9
-Stable tag: 1.2
+Stable tag: 1.2.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -44,4 +44,16 @@ The images are resized using an embedded version of TimThumb.  It is using versi
 3. Full screen view of the visual recipe index.
 
 == Changelog ==
-* updated readme.txt file, added screenshots
+= 1.0 =
+* Initial checkin
+
+= 1.1 =
+* Updated readme.txt file, added screenshots
+* Minor ux modifications
+
+= 1.2 =
+* Security update
+* CSS tweaks
+
+= 1.2.1 =
+* Increased picture quality
