@@ -1,7 +1,6 @@
 <?php
 /**
  * @ Recipe_Index
- * @version 1.0
  */
 /*
 Plugin Name: Visual Recipe Index
@@ -9,7 +8,6 @@ Plugin URI: http://wordpress.org/extend/plugins/recipe_index/
 Description: This plugin allows for the easy creation of a recipe index. 
 Inspired by the Category Grid View Plugin by Anshul Sharma
 Author: seestheday
-Version: 1.0
 Author URI: http://strawberriesforsupper.com/recipe-index
 */
 
@@ -44,8 +42,7 @@ function add_ri_settings(){
 add_options_page('Settings - Visual Recipe Index','Visual Recipe Index', 'manage_options', 'visual-recipe-index', 'recipe_index_options');
 }
 
-define('PLUGIN_AUTHOR', 'seestheday');
-define('PLUGIN_VERSION', '1.0');
+define('PLUGIN_AUTHOR', 'Kremental');
 define('AUTHOR_URI','http://strawberriesforsupper.com/');
 define('PLUGIN_URI','http://strawberriesforsupper.com/recipe-index');
 
