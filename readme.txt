@@ -2,7 +2,7 @@
 Contributors: Seestheday
 Requires at least: 3.0
 Tested up to: 3.9
-Stable tag: trunk
+Stable tag: 1.2.2
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -29,13 +29,34 @@ You can now create your recipe index via the instructions on the Settings->Visua
 
 == Frequently Asked Questions ==
 
-Q: Can I style this with css?
-A: Yes, everything should be fully styleable.  If you find something that isn't please contact the developer via the support forums and I'll see what I can do.
+= Can I style this with css? =
+
+Yes, everything should be fully styleable.  If you find something that isn't please contact the developer via the support forums and I'll see what I can do.
+
+= How are the images resized? =
+
+The images are resized using an embedded version of TimThumb.  It is using version 2.8.13.
 
 == Screenshots ==
 
 1. Sample of how the visual recipe index will look. You can also check out a live version at [strawberriesforsupper.com/recipe-index](http://strawberriesforsupper.com/recipe-index)
 2. Screenshot of the admin screen providing clear directions on how to create your automatically updating visual recipe index.
+3. Full screen view of the visual recipe index.
 
 == Changelog ==
-* updated readme.txt file, added screenshots
+= 1.0 =
+* Initial checkin
+
+= 1.1 =
+* Updated readme.txt file, added screenshots
+* Minor ux modifications
+
+= 1.2 =
+* Security update
+* CSS tweaks
+
+= 1.2.1 =
+* Increased picture quality
+
+= 1.2.2 =
+* Removed "Version" tags within code so download tag would update correctly

@@ -33,8 +33,8 @@ div.riview ul li div.rititle{height:0%;overflow:hidden;z-index:3;position:absolu
 div.riview ul li div.rititle p{width:100%;}
 div.riview ul li div.riback{
 					height:0%;overflow:hidden;z-index:2;position:absolute;bottom:0;left:0;width:inherit;
-					filter:alpha(opacity=60);
- 					opacity:0.6;
+			/*		filter:alpha(opacity=60);
+ 					opacity:0.6;*/
 }
 /*div.riview ul li div.rititle p a{font-family:Geneva, Arial, Helvetica, sans-serif;text-decoration:none;} */
 div.riview ul li div.rititle p a{text-decoration:none;}
