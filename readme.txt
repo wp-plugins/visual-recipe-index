@@ -2,7 +2,7 @@
 Contributors: Kremental
 Requires at least: 3.0
 Tested up to: 3.9
-Stable tag: 1.2.5
+Stable tag: 1.2.6
 Tags: recipe index, recipe gallery, recipe page, recipes, recipe, recipe list, visual recipe index, visual recipe gallery, recipe picture, recipe image, food gallery, food index, page image gallery
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -82,3 +82,6 @@ The images are resized using an embedded version of TimThumb.  It is using versi
 
 = 1.2.3 =
 * minor updates
+
+= 1.2.6 =
+* Added some marketing copy
