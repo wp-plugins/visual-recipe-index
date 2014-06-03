@@ -8,14 +8,14 @@ Plugin Name: Visual Recipe Index
 Plugin URI: http://wordpress.org/extend/plugins/recipe_index/
 Description: This plugin allows for the easy creation of a recipe index. 
 Inspired by the Category Grid View Plugin by Anshul Sharma
-Author: seestheday
+Author: Kremental
 Version: 1.2.4
 Author URI: http://strawberriesforsupper.com/recipe-index
 */
 
 
 /* Copyright 2012 Original Author: Anshul Sharma  (email : contact@anshulsharma.in)
-   Copyright 2014 Author: seestheday/Simon Austin (email: simon@kremental.com)
+   Copyright 2014 Author: Kremental/Simon Austin (email: simon@kremental.com)
 
 This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -144,9 +144,18 @@ function recipe_index_options() {
         wp_enqueue_script( 'recipe_index', plugins_url('js/recipe_index_options.js',__FILE__), array( 'jquery' ));
 
 	echo '<div class="wrap">
+	<table>
+	<tr><td>
 	<h1>Visual Recipe Index</h1>This plugin will create an automatically updating recipe index with pictures.<br>Note that this plugin requires the feature image is set for each post.  once you have created your visual recipe index it is easy to identify which posts do not have a feature image set.';
 	echo '<h2>Step 1: </h2>create a blank page where you want to post your automatically updating visual recipe index.  <a href="../wp-admin/post-new.php?post_type=page&post_title=Recipe Index#content-html" target="_blank">Click here</a> to open up a new window to do this
 <h2>Step 2: </h2>Choose your options below
+	</td><td><a href="http://kremental.com/visual-recipe-index"><img src="';
+	echo plugins_url('includes/Sign-up.png',__FILE__);
+	echo '" alt="Sign up for updates and exclusive early release pricing for the pro version">';
+	echo '</a></td>
+	</tr>
+	</table>
+	
 	</div>';
 ?>
 	
@@ -179,6 +188,7 @@ var idcat=new Array();
 </script>
                     <br />
                                <span> <?php _e("Choose multiple categories by holding down the Ctrl key","riview"); ?></span></td>
+                               
 </div>
                 <td><?php _e("Thumbnail Size","riview"); ?><br />
                 <input type="text" size="4" name="sizew" value=""/><?php _e(" X ","riview"); ?><input type="text" size="4" name="sizeh" value=""/><br />
