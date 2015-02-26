@@ -8,8 +8,8 @@ Inspired by the Category Grid View Plugin by Anshul Sharma
 //Default Plugin Settings
 function riview_default_settings(){
 	$defaults = array(
-    'default_image' => RECIPEINDEX_URL.'/includes/default.jpg',
-	'custom_image' => RECIPEINDEX_URL.'/includes/default.jpg',
+    'default_image' => plugin_dir_url(__FILE__) . '/includes/default.jpg',
+	'custom_image' => plugin_dir_url(__FILE__)  .'/includes/default.jpg',
     'credits' => 1,
     'color_scheme' => 'light',
     'image_source' => 'featured',
