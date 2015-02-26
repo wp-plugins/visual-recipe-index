@@ -1,7 +1,7 @@
 <?php
 /**
  * @ Recipe_Index
- * @version 1.2.7
+ * @version 1.2.8
  */
 /*
 Plugin Name: Visual Recipe Index
@@ -9,7 +9,7 @@ Plugin URI: http://wordpress.org/extend/plugins/recipe_index/
 Description: This plugin allows for the easy creation of a recipe index. 
 Inspired by the Category Grid View Plugin by Anshul Sharma
 Author: Kremental
-Version: 1.2.7
+Version: 1.2.8
 Author URI: http://strawberriesforsupper.com/recipe-index
 */
 

@@ -2,7 +2,7 @@
 Contributors: Kremental
 Requires at least: 3.0
 Tested up to: 4.1.1
-Stable tag: 1.2.7
+Stable tag: 1.2.8
 Tags: recipe index, recipe gallery, recipe page, recipes, recipe, recipe list, visual recipe index, visual recipe gallery, recipe picture, recipe image, food gallery, food index, page image gallery
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -101,5 +101,5 @@ Please ensure that this directory exists and is writeable by your webserver.
 = 1.2.6 =
 * Added some marketing copy
 
-= 1.2.7rc1 =
+= 1.2.8 =
 * Fixed a minor javascript error
