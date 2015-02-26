@@ -155,7 +155,10 @@ Inspired by the Category Grid View Plugin by Anshul Sharma
 }
 
  function ri_init_js(){
- global $paginateVal;
+	 global $paginateVal;
+	 if (is_null($paginateVal)) {
+		 $paginateVal = 0;
+	 }
     echo '<script type="text/javascript">';
     echo 'paginateVal = '.$paginateVal.';';
     echo '</script>';
